@@ -225,21 +225,3 @@ body {
 .rotate-right {
     transform: rotate(3deg);
 }
-
-@media (max-width: 640px) and (orientation: portrait) {
-    .info-board {
-        display: none;
-    }
-
-    body {   
-        background-image: url('../img/portrait.jpg');
-        background-position: center;
-    }
-}
-
-@media (min-width: 641px) and (max-width: 900px) {
-    body {   
-        background-image: url('../img/office-background.jpg');
-        background-position: center;
-    }
-}
